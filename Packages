@@ -1,0 +1,29 @@
+Package: com.kasiimh1.hidepagedots
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: Kasiimh1 <kasiimh1@gmail.com>
+Depends: mobilesubstrate
+Filename: /Debs/com.kasiimh1.hidepagedots_0.0.1-1+debug_iphoneos-arm.deb
+Size: 2808
+MD5sum: 2a203137c2df4a9ad77fc37979f8d4c0
+SHA1: 59a3a950247871fe484a5b99c91e52b25c9d8bc0
+SHA256: 99058e85268fa48be06d618c6dda4b74e6a705beab521dd5c7de4836fe56471a
+Section: Tweaks
+Description: Hides SpringBoard page dots
+Author: Kasiimh1 <kasiimh1@gmail.com>
+Name: hidepagedots
+
+Package: com.kasiimh1.noweatherinfo
+Version: 0.2-1+debug
+Architecture: iphoneos-arm
+Maintainer: Kasiimh1 <kasiimh1@gmail.com>
+Depends: mobilesubstrate
+Filename: /Debs/com.kasiimh1.noweatherinfo_0.2-1+debug_iphoneos-arm.deb
+Size: 2822
+MD5sum: 497578161775f47e6d96c5475357ecf5
+SHA1: 5eaf3b390947eee63d54a9262c946c4fb4d1982f
+SHA256: 82ab75289e538106d01447d3e338c6378b8a877267f39de8fa440c7e01db17f4
+Section: Tweaks
+Description: Hides Weather info in Notification Center
+Author: Kasiimh1 <kasiimh1@gmail.com>
+Name: noweatherinfo
