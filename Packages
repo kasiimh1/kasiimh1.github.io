@@ -22,7 +22,7 @@ Filename: /Debs/com.kasiimh1.noweatherinfo_0.2_iphoneos-arm.deb
 Size: 2426
 MD5sum: 9cc7e1ab046c2618982a6a9d7dcf550a
 SHA1: 44a7ddc6f474fa1e3634a19bafbc76ce53db3efa
-SHA256: bc9b0c887bfcca8e7134462e50f5d25c418c486a4c1a178c570d8b8f7ae194bd
+SHA256: dd6e566b4e72da29fc19089c210313c154761485c93d38101b89c8ff8c7da27c
 Section: Tweaks
 Description: Hides Weather info in Notification Center
 Author: Kasiimh1 <kasiimh1@gmail.com>
