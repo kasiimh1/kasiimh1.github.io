@@ -1,5 +1,5 @@
 Package: com.kasiimh1.hidepagedots
-Version: 0.0.1
+Version: 0.0.1.1
 Architecture: iphoneos-arm
 Maintainer: Kasiimh1 <kasiimh1@gmail.com>
 Depends: mobilesubstrate
@@ -14,7 +14,7 @@ Author: Kasiimh1 <kasiimh1@gmail.com>
 Name: hidepagedots
 
 Package: com.kasiimh1.noweatherinfo
-Version: 0.2
+Version: 0.2.1
 Architecture: iphoneos-arm
 Maintainer: Kasiimh1 <kasiimh1@gmail.com>
 Depends: mobilesubstrate
@@ -29,11 +29,11 @@ Author: Kasiimh1 <kasiimh1@gmail.com>
 Name: noweatherinfo
 
 Package: com.kasiimh1.nooldertext
-Version: 0.1
+Version: 0.1.1
 Architecture: iphoneos-arm
 Maintainer: Kasiimh1 <kasiimh1@gmail.com>
 Depends: mobilesubstrate
-Filename: /Debs/com.kasiim.nooldertext_0.0.1_iphoneos-arm.deb
+Filename: /Debs/com.kasiim.nooldertext_0.1_iphoneos-arm.deb
 Size: 2986
 MD5sum: 123cc7d02823839fd028b1a1f8b489c8
 SHA1: 2aa091123b5d68a72176a897ac1b9b3cb4146f0b
@@ -44,7 +44,7 @@ Author: Kasiimh1 <kasiimh1@gmail.com>
 Name: nooldertext
 
 Package: com.kasiimh1.ytbgd
-Version: 0.2
+Version: 0.2.1
 Architecture: iphoneos-arm
 Maintainer: Kasiimh1 <kasiimh1@gmail.com>
 Depends: mobilesubstrate
@@ -59,7 +59,7 @@ Author: Kasiimh1 <kasiimh1@gmail.com>
 Name: ytbgd
 
 Package: com.kasiimh1.hidemydockbackground
-Version: 0.0.1
+Version: 0.0.1.1
 Architecture: iphoneos-arm
 Maintainer: Kasiimh1 <kasiimh1@gmail.com>
 Depends: mobilesubstrate
