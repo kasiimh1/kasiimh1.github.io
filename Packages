@@ -1,9 +1,9 @@
 Package: com.kasiimh1.hidepagedots
-Version: 0.0.1.1
+Version: 0.0.1
 Architecture: iphoneos-arm
 Maintainer: Kasiimh1 <kasiimh1@gmail.com>
 Depends: mobilesubstrate
-Filename: /Debs/com.kasiimh1.hidepagedots_0.0.1_iphoneos-arm.deb
+Filename: /Debs/com.kasiimh1.hidepagedots.deb
 Size: 2408
 MD5sum: c7091a31ffd9dca6de835dfdf5cec969
 SHA1: 9cdd12df7b4dd0eb30e545faaa388ed4540ad7f2
@@ -14,11 +14,11 @@ Author: Kasiimh1 <kasiimh1@gmail.com>
 Name: hidepagedots
 
 Package: com.kasiimh1.noweatherinfo
-Version: 0.2.1
+Version: 0.2
 Architecture: iphoneos-arm
 Maintainer: Kasiimh1 <kasiimh1@gmail.com>
 Depends: mobilesubstrate
-Filename: /Debs/com.kasiimh1.noweatherinfo_0.2_iphoneos-arm.deb
+Filename: /Debs/com.kasiimh1.noweatherinfo.deb
 Size: 2426
 MD5sum: 9cc7e1ab046c2618982a6a9d7dcf550a
 SHA1: 44a7ddc6f474fa1e3634a19bafbc76ce53db3efa
@@ -29,26 +29,26 @@ Author: Kasiimh1 <kasiimh1@gmail.com>
 Name: noweatherinfo
 
 Package: com.kasiimh1.nooldertext
-Version: 0.1.1
+Version: 0.2
 Architecture: iphoneos-arm
 Maintainer: Kasiimh1 <kasiimh1@gmail.com>
 Depends: mobilesubstrate
-Filename: /Debs/com.kasiim.nooldertext_0.1_iphoneos-arm.deb
+Filename: /Debs/com.kasiim.nooldertext.deb
 Size: 2986
-MD5sum: 123cc7d02823839fd028b1a1f8b489c8
-SHA1: 2aa091123b5d68a72176a897ac1b9b3cb4146f0b
-SHA256: 37e303f7ed1d167591372aff202691eb77ab637f67794032efe0308e2ef2ea58
+MD5sum: 60cf7f7b21e56d38ba8af77808e2a413
+SHA1: d3063cab89774050a0be4d3cab781eeb1eb53e86
+SHA256: fa6706a6a5f882f1a47832168bd00717dcfe91cda3751a1c9949f675b89b827d
 Section: Tweaks
 Description: Hides no older text in Notification Center
 Author: Kasiimh1 <kasiimh1@gmail.com>
 Name: nooldertext
 
 Package: com.kasiimh1.ytbgd
-Version: 0.2.1
+Version: 0.2
 Architecture: iphoneos-arm
 Maintainer: Kasiimh1 <kasiimh1@gmail.com>
 Depends: mobilesubstrate
-Filename: /Debs/com.kasiim.ytbgd_0.2_iphoneos-arm.deb
+Filename: /Debs/com.kasiim.ytbgd.deb
 Size: 2616
 MD5sum: ebe274f45d5edee0761d6e029a2366d9
 SHA1: 33d02decd3c3472edee84e4f72f5016bdc779876
@@ -59,11 +59,11 @@ Author: Kasiimh1 <kasiimh1@gmail.com>
 Name: ytbgd
 
 Package: com.kasiimh1.hidemydockbackground
-Version: 0.0.1.1
+Version: 0.0.1
 Architecture: iphoneos-arm
 Maintainer: Kasiimh1 <kasiimh1@gmail.com>
 Depends: mobilesubstrate
-Filename: /Debs/com.kasiimh1.hidemydockbackground_0.0.1_iphoneos-arm.deb
+Filename: /Debs/com.kasiimh1.hidemydockbackground.deb
 Size: 1458
 MD5sum: 19cb221b4e5023f74473eab9d171d5fa
 SHA1: 45c23ef54afb8fbf46851855071a2ce3a093679a
