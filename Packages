@@ -29,15 +29,15 @@ Author: Kasiimh1 <kasiimh1@gmail.com>
 Name: noweatherinfo
 
 Package: com.kasiimh1.nooldertext
-Version: 0.0.1
+Version: 0.1
 Architecture: iphoneos-arm
 Maintainer: Kasiimh1 <kasiimh1@gmail.com>
 Depends: mobilesubstrate
 Filename: /Debs/com.kasiim.nooldertext_0.0.1_iphoneos-arm.deb
 Size: 2986
-MD5sum: 4a6dd023c183ebceb0b9df5c6b432707
-SHA1: 12556c5b730cda50cbcd583c2bb4f543037359e9
-SHA256: b66ef76d9c0ead8da334ec37dabb716b105ed71b55c789ddafd3453ad788b59c
+MD5sum: 123cc7d02823839fd028b1a1f8b489c8
+SHA1: 2aa091123b5d68a72176a897ac1b9b3cb4146f0b
+SHA256: 37e303f7ed1d167591372aff202691eb77ab637f67794032efe0308e2ef2ea58
 Section: Tweaks
 Description: Hides no older text in Notification Center
 Author: Kasiimh1 <kasiimh1@gmail.com>
