@@ -4,14 +4,14 @@ Architecture: iphoneos-arm
 Maintainer: kasiimh1 <kasiimh1@gmail.com>
 Depends: mobilesubstrate
 Filename: /Debs/com.kasiimh1.hidepagedots.deb
-Size: 2408
-MD5sum: c7091a31ffd9dca6de835dfdf5cec969
-SHA1: 9cdd12df7b4dd0eb30e545faaa388ed4540ad7f2
-SHA256: bc9b0c887bfcca8e7134462e50f5d25c418c486a4c1a178c570d8b8f7ae194bd
+Size: 2418
+MD5sum: 5f7eebe802d45c3228f799783be7456a
+SHA1: 8a4b4c059c57c334f438b42b01931c197c58e1f7
+SHA256: 1e46333e77efb635e5e27da3d4b68982bf0dc26059efc743a43598a9c7817cb4
 Section: Tweaks
-Description: Hides SpringBoard page dots
+Description: Hides Page Dots on SpringBoard
 Author: kasiimh1 <kasiimh1@gmail.com>
-Name: hidepagedots
+Name: HidePageDots
 
 Package: com.kasiimh1.noweatherinfo
 Version: 0.2
@@ -19,14 +19,14 @@ Architecture: iphoneos-arm
 Maintainer: kasiimh1 <kasiimh1@gmail.com>
 Depends: mobilesubstrate
 Filename: /Debs/com.kasiimh1.noweatherinfo.deb
-Size: 2426
-MD5sum: 9cc7e1ab046c2618982a6a9d7dcf550a
-SHA1: 44a7ddc6f474fa1e3634a19bafbc76ce53db3efa
-SHA256: dd6e566b4e72da29fc19089c210313c154761485c93d38101b89c8ff8c7da27c
+Size: 2434
+MD5sum: bb157810a932e5b587e822ba9a4d854f
+SHA1: 7bea56bd55b55447f24c81933d1a75fe65c2b8d1
+SHA256: 9e7858e70c550a240177f6bda88972e5d2a343c1ab819b2c01f7efca39ad3a23
 Section: Tweaks
-Description: Hides Weather info in Notification Center
+Description: Removes Weather is Provided by on Today View
 Author: kasiimh1 <kasiimh1@gmail.com>
-Name: noweatherinfo
+Name: NoWeatherInfo
 
 Package: com.kasiimh1.nooldertext
 Version: 0.2
@@ -34,14 +34,14 @@ Architecture: iphoneos-arm
 Maintainer: kasiimh1 <kasiimh1@gmail.com>
 Depends: mobilesubstrate
 Filename: /Debs/com.kasiim.nooldertext.deb
-Size: 2994
-MD5sum: 60cf7f7b21e56d38ba8af77808e2a413
-SHA1: d3063cab89774050a0be4d3cab781eeb1eb53e86
-SHA256: fa6706a6a5f882f1a47832168bd00717dcfe91cda3751a1c9949f675b89b827d
+Size: 3010
+MD5sum: 0039e6eadbf9532cfd0665723c298f37
+SHA1: 5120a4e596f950565bbba8052f18642281426ef5
+SHA256: 8db0eca5c897bf50e603aee98836458ed8fa944309180b91462894af6861d6f4
 Section: Tweaks
 Description: Hides no older text in Notification Center
 Author: kasiimh1 <kasiimh1@gmail.com>
-Name: nooldertext
+Name: noOlderText
 
 Package: com.kasiimh1.ytbgd
 Version: 0.2
@@ -49,12 +49,12 @@ Architecture: iphoneos-arm
 Maintainer: kasiimh1 <kasiimh1@gmail.com>
 Depends: mobilesubstrate
 Filename: /Debs/com.kasiim.ytbgd.deb
-Size: 2616
-MD5sum: ebe274f45d5edee0761d6e029a2366d9
-SHA1: 33d02decd3c3472edee84e4f72f5016bdc779876
-SHA256: 1632eec42d95cb1567119a2c5092d5260becf99bac85821347eff2edc9707191
+Size: 2632
+MD5sum: b317a6db3aa53cb1d5a4a77b0c54ba4b
+SHA1: 36e8768480b125d368eab9ec4d6fa298abe6318c
+SHA256: aa7dec2943f22e5a8079da8981b4eaeb88c4d0d19aa94735c808eb47fcfadb0e
 Section: Tweaks
-Description: Enable features in the Youtube App
+Description: Enable Background Playback, Removes Channel Watermark in Google Youtube App
 Author: kasiimh1 <kasiimh1@gmail.com>
 Name: ytbgd
 
@@ -64,11 +64,26 @@ Architecture: iphoneos-arm
 Maintainer: kasiimh1 <kasiimh1@gmail.com>
 Depends: mobilesubstrate
 Filename: /Debs/com.kasiimh1.hidemydockbackground.deb
-Size: 1458
-MD5sum: 19cb221b4e5023f74473eab9d171d5fa
-SHA1: 45c23ef54afb8fbf46851855071a2ce3a093679a
-SHA256: f4bd3b214e2056a818913b712214b8dbcb6dc4a08af4c58223131cb35a1a1594
+Size: 1474
+MD5sum: 4ccd98f5cd1fd2ff882401afc6a28a82
+SHA1: 642f44c45040d44c8e31806deaf3d046638c7da2
+SHA256: 634a3320f21075154e8f81d91ad2992e1a984cdfbb792b898fa889494afd4c0f
 Section: Tweaks
-Description: Hide dockbackground, tested on my XS 
+Description: Removes The Dock Background, Tested on iPhone XS
 Author: kasiimh1 <kasiimh1@gmail.com>
-Name: hidemydockbackground
+Name: HideMyDockBackgrounds
+
+Package: com.kasiimh1.dimentio
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: kasiimh1 <kasiimh1@gmail.com>
+Depends: mobilesubstrate
+Filename: /Debs/com.kasiimh1.hidemydockbackground.deb
+Size: 11280
+MD5sum: bc5b9f293887e959714a520d6c136e54
+SHA1: bbd4a78d61afc55f26f21ce4eb0e46c3b690f296
+SHA256: 5525dc8b064cd31ce7b5210147f0a7dce723e2851e4102089a872da898b14722
+Section: Tweaks
+Description: Set Nonce Generator on any KPP, KTRR and PAC enabled device, file saved to /usr/bin/ Usage: ./dimentio <Generator> Login as SU before use. Created by https://github.com/0x7ff/
+Author: kasiimh1 <kasiimh1@gmail.com>
+Name: Dimentio Generator Setter
