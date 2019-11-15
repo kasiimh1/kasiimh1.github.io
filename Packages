@@ -43,7 +43,7 @@ Description: Hides no older text in Notification Center
 Author: kasiimh1 <kasiimh1@gmail.com>
 Name: noOlderText
 
-Package: com.kasiimh1.ytbgd
+Package: com.kasiim.ytbgd
 Version: 0.2
 Architecture: iphoneos-arm
 Maintainer: kasiimh1 <kasiimh1@gmail.com>
