@@ -1,29 +1,74 @@
 Package: com.kasiimh1.hidepagedots
-Version: 0.0.1-1+debug
+Version: 0.0.1
 Architecture: iphoneos-arm
 Maintainer: Kasiimh1 <kasiimh1@gmail.com>
 Depends: mobilesubstrate
-Filename: /Debs/com.kasiimh1.hidepagedots_0.0.1-1+debug_iphoneos-arm.deb
-Size: 2808
-MD5sum: 2a203137c2df4a9ad77fc37979f8d4c0
-SHA1: 59a3a950247871fe484a5b99c91e52b25c9d8bc0
-SHA256: 99058e85268fa48be06d618c6dda4b74e6a705beab521dd5c7de4836fe56471a
+Filename: /Debs/com.kasiimh1.hidepagedots_0.0.1_iphoneos-arm.deb
+Size: 2408
+MD5sum: c7091a31ffd9dca6de835dfdf5cec969
+SHA1: 9cdd12df7b4dd0eb30e545faaa388ed4540ad7f2
+SHA256: bc9b0c887bfcca8e7134462e50f5d25c418c486a4c1a178c570d8b8f7ae194bd
 Section: Tweaks
 Description: Hides SpringBoard page dots
 Author: Kasiimh1 <kasiimh1@gmail.com>
 Name: hidepagedots
 
 Package: com.kasiimh1.noweatherinfo
-Version: 0.2-1+debug
+Version: 0.2
 Architecture: iphoneos-arm
 Maintainer: Kasiimh1 <kasiimh1@gmail.com>
 Depends: mobilesubstrate
-Filename: /Debs/com.kasiimh1.noweatherinfo_0.2-1+debug_iphoneos-arm.deb
-Size: 2822
-MD5sum: 497578161775f47e6d96c5475357ecf5
-SHA1: 5eaf3b390947eee63d54a9262c946c4fb4d1982f
-SHA256: 82ab75289e538106d01447d3e338c6378b8a877267f39de8fa440c7e01db17f4
+Filename: /Debs/com.kasiimh1.noweatherinfo_0.2_iphoneos-arm.deb
+Size: 2426
+MD5sum: 9cc7e1ab046c2618982a6a9d7dcf550a
+SHA1: 44a7ddc6f474fa1e3634a19bafbc76ce53db3efa
+SHA256: bc9b0c887bfcca8e7134462e50f5d25c418c486a4c1a178c570d8b8f7ae194bd
 Section: Tweaks
 Description: Hides Weather info in Notification Center
 Author: Kasiimh1 <kasiimh1@gmail.com>
 Name: noweatherinfo
+
+Package: com.kasiimh1.nooldertext
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Kasiimh1 <kasiimh1@gmail.com>
+Depends: mobilesubstrate
+Filename: /Debs/com.kasiim.nooldertext_0.0.1_iphoneos-arm.deb
+Size: 2986
+MD5sum: 4a6dd023c183ebceb0b9df5c6b432707
+SHA1: 12556c5b730cda50cbcd583c2bb4f543037359e9
+SHA256: b66ef76d9c0ead8da334ec37dabb716b105ed71b55c789ddafd3453ad788b59c
+Section: Tweaks
+Description: Hides no older text in Notification Center
+Author: Kasiimh1 <kasiimh1@gmail.com>
+Name: nooldertext
+
+Package: com.kasiimh1.ytbgd
+Version: 0.2
+Architecture: iphoneos-arm
+Maintainer: Kasiimh1 <kasiimh1@gmail.com>
+Depends: mobilesubstrate
+Filename: /Debs/com.kasiim.ytbgd_0.2_iphoneos-arm.deb
+Size: 2616
+MD5sum: ebe274f45d5edee0761d6e029a2366d9
+SHA1: 33d02decd3c3472edee84e4f72f5016bdc779876
+SHA256: 1632eec42d95cb1567119a2c5092d5260becf99bac85821347eff2edc9707191
+Section: Tweaks
+Description: Enable features in the Youtube App
+Author: Kasiimh1 <kasiimh1@gmail.com>
+Name: ytbgd
+
+Package: com.kasiimh1.hidemydockbackground
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Kasiimh1 <kasiimh1@gmail.com>
+Depends: mobilesubstrate
+Filename: /Debs/com.kasiimh1.hidemydockbackground_0.0.1_iphoneos-arm.deb
+Size: 1458
+MD5sum: 19cb221b4e5023f74473eab9d171d5fa
+SHA1: 45c23ef54afb8fbf46851855071a2ce3a093679a
+SHA256: f4bd3b214e2056a818913b712214b8dbcb6dc4a08af4c58223131cb35a1a1594
+Section: Tweaks
+Description: Hide dockbackground, tested on my XS 
+Author: Kasiimh1 <kasiimh1@gmail.com>
+Name: hidemydockbackground
