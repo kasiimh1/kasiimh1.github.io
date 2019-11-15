@@ -37,7 +37,7 @@ Filename: /Debs/com.kasiimh1.nooldertext.deb
 Size: 3010
 MD5sum: 0039e6eadbf9532cfd0665723c298f37
 SHA1: 5120a4e596f950565bbba8052f18642281426ef5
-SHA256: 8db0eca5c897bf50e603aee98836458ed8fa944309180b91462894af6861d6f4
+SHA256: 9e7858e70c550a240177f6bda88972e5d2a343c1ab819b2c01f7efca39ad3a23
 Section: Tweaks
 Description: Hides no older text in Notification Center
 Author: kasiimh1 <kasiimh1@gmail.com>
