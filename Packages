@@ -87,3 +87,18 @@ Section: Tweaks
 Description: Set Nonce Generator on any KPP, KTRR and PAC enabled device, file saved to /usr/bin/ Usage: ./dimentio <Generator> Login as SU before use. Created by https://github.com/0x7ff/
 Author: kasiimh1 <kasiimh1@gmail.com>
 Name: Dimentio Generator Setter
+
+Package: com.ioscreatix.sugarcane
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: iOS Creatix, kasiimh1, baptistecdr
+Depends: mobilesubstrate
+Filename: /Debs/com.ioscreatix.sugarcane.deb
+Size: 4322
+MD5sum: d016a30215d0dc3c9858cb44523c93ee
+SHA1: d58878ad35169b099f2df7be60d8390ad39d101d
+SHA256: aa61ecc3f2a93daeb91b556f905472551b9b567bc962db76f3e4922eec532d5a
+Section: Tweaks
+Description: Get percentages for the sliders in the Control Center on iOS 13
+Author: iOS Creatix, kasiimh1, baptistecdr
+Name: SugarCane
