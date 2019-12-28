@@ -1,54 +1,40 @@
-Package: com.kasiimh1.hidepagedots
-Version: 0.0.1
+Package: com.ioscreatix.sugarcane
+Version: 1.2
 Architecture: iphoneos-arm
-Maintainer: kasiimh1 <kasiimh1@gmail.com>
+Maintainer: iOS Creatix, kasiimh1, baptistecdr
+Installed-Size: 136
 Depends: mobilesubstrate
-Filename: /Debs/com.kasiimh1.hidepagedots.deb
-Size: 2418
-MD5sum: 5f7eebe802d45c3228f799783be7456a
-SHA1: 8a4b4c059c57c334f438b42b01931c197c58e1f7
-SHA256: 1e46333e77efb635e5e27da3d4b68982bf0dc26059efc743a43598a9c7817cb4
+Filename: debs/com.ioscreatix.sugarcane.deb
+Size: 4322
+MD5sum: d016a30215d0dc3c9858cb44523c93ee
+SHA1: d58878ad35169b099f2df7be60d8390ad39d101d
+SHA256: aa61ecc3f2a93daeb91b556f905472551b9b567bc962db76f3e4922eec532d5a
 Section: Tweaks
-Description: Hides Page Dots on SpringBoard
-Author: kasiimh1 <kasiimh1@gmail.com>
-Name: HidePageDots
+Description: Get percentages for the sliders in the Control Center on iOS 13
+Author: iOS Creatix, kasiimh1, baptistecdr
+Name: SugarCane
 
-Package: com.kasiimh1.noweatherinfo
-Version: 0.2
+Package: com.kasiim.dimentio
+Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: kasiimh1 <kasiimh1@gmail.com>
-Depends: mobilesubstrate
-Filename: /Debs/com.kasiimh1.noweatherinfo.deb
-Size: 2434
-MD5sum: bb157810a932e5b587e822ba9a4d854f
-SHA1: 7bea56bd55b55447f24c81933d1a75fe65c2b8d1
-SHA256: 8db0eca5c897bf50e603aee98836458ed8fa944309180b91462894af6861d6f4
-Section: Tweaks
-Description: Removes Weather is Provided by on Today View
-Author: kasiimh1 <kasiimh1@gmail.com>
-Name: NoWeatherInfo
-
-Package: com.kasiimh1.nooldertext
-Version: 0.2
-Architecture: iphoneos-arm
-Maintainer: kasiimh1 <kasiimh1@gmail.com>
-Depends: mobilesubstrate
-Filename: /Debs/com.kasiimh1.nooldertext.deb
-Size: 3010
-MD5sum: 0039e6eadbf9532cfd0665723c298f37
-SHA1: 5120a4e596f950565bbba8052f18642281426ef5
-SHA256: 9e7858e70c550a240177f6bda88972e5d2a343c1ab819b2c01f7efca39ad3a23
-Section: Tweaks
-Description: Hides no older text in Notification Center
-Author: kasiimh1 <kasiimh1@gmail.com>
-Name: noOlderText
+Maintainer: kasiimh1
+Filename: debs/com.kasiimh1.dimentio.deb
+Size: 11280
+MD5sum: bc5b9f293887e959714a520d6c136e54
+SHA1: bbd4a78d61afc55f26f21ce4eb0e46c3b690f296
+SHA256: 5525dc8b064cd31ce7b5210147f0a7dce723e2851e4102089a872da898b14722
+Section: System
+Description: Set Nonce Generator on any KPP, KTRR and PAC enabled device, file saved to /usr/bin/ Usage: ./dimentio <Generator> Login as SU before use. Created by https://github.com/0x7ff/
+Author: kasiimh1
+Name: Dimentio Generator Setter
 
 Package: com.kasiim.ytbgd
 Version: 0.2
 Architecture: iphoneos-arm
-Maintainer: kasiimh1 <kasiimh1@gmail.com>
+Maintainer: kasiimh1
+Installed-Size: 104
 Depends: mobilesubstrate
-Filename: /Debs/com.kasiimh1.ytbgd.deb
+Filename: debs/com.kasiimh1.ytbgd.deb
 Size: 2632
 MD5sum: b317a6db3aa53cb1d5a4a77b0c54ba4b
 SHA1: 36e8768480b125d368eab9ec4d6fa298abe6318c
@@ -61,9 +47,10 @@ Name: ytbgd
 Package: com.kasiimh1.hidemydockbackground
 Version: 0.0.1
 Architecture: iphoneos-arm
-Maintainer: kasiimh1 <kasiimh1@gmail.com>
+Maintainer: kasiimh1
+Installed-Size: 72
 Depends: mobilesubstrate
-Filename: /Debs/com.kasiimh1.hidemydockbackground.deb
+Filename: debs/com.kasiimh1.hidemydockbackground.deb
 Size: 1474
 MD5sum: 4ccd98f5cd1fd2ff882401afc6a28a82
 SHA1: 642f44c45040d44c8e31806deaf3d046638c7da2
@@ -71,34 +58,53 @@ SHA256: 634a3320f21075154e8f81d91ad2992e1a984cdfbb792b898fa889494afd4c0f
 Section: Tweaks
 Description: Removes The Dock Background, Tested on iPhone XS
 Author: kasiimh1 <kasiimh1@gmail.com>
-Name: HideMyDockBackgrounds
+Name: HideMyDockBackground
 
-Package: com.kasiim.dimentio
-Version: 1.0
+Package: com.kasiimh1.hidepagedots
+Version: 0.0.1
 Architecture: iphoneos-arm
-Maintainer: kasiimh1 <kasiimh1@gmail.com>
+Maintainer: kasiimh1
+Installed-Size: 136
 Depends: mobilesubstrate
-Filename: /Debs/com.kasiimh1.dimentio.deb
-Size: 11280
-MD5sum: bc5b9f293887e959714a520d6c136e54
-SHA1: bbd4a78d61afc55f26f21ce4eb0e46c3b690f296
-SHA256: 5525dc8b064cd31ce7b5210147f0a7dce723e2851e4102089a872da898b14722
+Filename: debs/com.kasiimh1.hidepagedots.deb
+Size: 2418
+MD5sum: 5f7eebe802d45c3228f799783be7456a
+SHA1: 8a4b4c059c57c334f438b42b01931c197c58e1f7
+SHA256: 1e46333e77efb635e5e27da3d4b68982bf0dc26059efc743a43598a9c7817cb4
 Section: Tweaks
-Description: Set Nonce Generator on any KPP, KTRR and PAC enabled device, file saved to /usr/bin/ Usage: ./dimentio <Generator> Login as SU before use. Created by https://github.com/0x7ff/
+Description: Hides Page Dots on SpringBoard
 Author: kasiimh1 <kasiimh1@gmail.com>
-Name: Dimentio Generator Setter
+Name: HidePageDots
 
-Package: com.ioscreatix.sugarcane
-Version: 1.2
+Package: com.kasiimh1.nooldertext
+Version: 0.2
 Architecture: iphoneos-arm
-Maintainer: iOS Creatix, kasiimh1, baptistecdr
+Maintainer: Kasiimh1
+Installed-Size: 152
 Depends: mobilesubstrate
-Filename: /Debs/com.ioscreatix.sugarcane.deb
-Size: 4322
-MD5sum: d016a30215d0dc3c9858cb44523c93ee
-SHA1: d58878ad35169b099f2df7be60d8390ad39d101d
-SHA256: aa61ecc3f2a93daeb91b556f905472551b9b567bc962db76f3e4922eec532d5a
+Filename: debs/com.kasiimh1.nooldertext.deb
+Size: 3010
+MD5sum: 0039e6eadbf9532cfd0665723c298f37
+SHA1: 5120a4e596f950565bbba8052f18642281426ef5
+SHA256: 9e7858e70c550a240177f6bda88972e5d2a343c1ab819b2c01f7efca39ad3a23
 Section: Tweaks
-Description: Get percentages for the sliders in the Control Center on iOS 13
-Author: iOS Creatix, kasiimh1, baptistecdr
-Name: SugarCane
+Description: Hides no older text in Notification Center
+Author: kasiimh1 <kasiimh1@gmail.com>
+Name: noOlderText
+
+Package: com.kasiimh1.noweatherinfo
+Version: 0.2
+Architecture: iphoneos-arm
+Maintainer: kasiimh1
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: debs/com.kasiimh1.noweatherinfo.deb
+Size: 2434
+MD5sum: bb157810a932e5b587e822ba9a4d854f
+SHA1: 7bea56bd55b55447f24c81933d1a75fe65c2b8d1
+SHA256: 8db0eca5c897bf50e603aee98836458ed8fa944309180b91462894af6861d6f4
+Section: Tweaks
+Description: Removes Weather is Provided by on Today View
+Author: kasiimh1 <kasiimh1@gmail.com>
+Name: NoWeatherInfo
+
