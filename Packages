@@ -35,10 +35,10 @@ Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: kasiimh1, 0x7ff
 Filename: Debs/com.kasiimh1.dimentio.deb
-Size: 7528
-MD5sum: 606081f1563297140a02b7ce91706073
-SHA1: 1d4aea6afa1b33e8844b379fd78f32bbe5fc97f9
-SHA256: 3c2130e803de5b4180d0568e0c82289ab261ea26c3a00d6f77449d69c799cf6c
+Size: 12020
+MD5sum: 015de58b20b6ae3e740ad18ee0a23ea7
+SHA1: 6a41f86247d3ecdceccefb3ae5e67ae04cd2901c
+SHA256: 5c04fdc005c91fe186149ebe66d356978e9d4ef588bd43d93ef732de40ba8e07
 Section: System
 Description: Set Nonce Generator on any KPP, KTRR and PAC enabled device, file saved to /usr/bin/ Usage: ./dimentio <Generator> Login as SU before use. Created by https://github.com/0x7ff/
 Author: kasiimh1, 0x7ff
