@@ -108,3 +108,49 @@ Description: Removes Weather is Provided by on Today View
 Author: kasiimh1 <kasiimh1@gmail.com>
 Name: NoWeatherInfo
 
+Package: com.posdorfer.noliveclock
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: wolfposd, kasiimh1
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: Debs/com.posdorfer.noliveclock_0.0.3_iphoneos-arm.deb
+Size: 2428
+MD5sum: 6d957665ea4eaed3def34284600acea9
+SHA1: 05cf1b09c4107042c8e7a92622a70f51006fbd9a
+SHA256: e680e59022a52d5f5dec706e81df0327261886a31af3a579d11927b1d47db7b1
+Section: Tweaks
+Description: Removes the live clock animation
+Author: wolfposd, kasiimh1
+Name: NoLiveClock
+
+Package: com.yourepo.kasiimh1.chevronbegone
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Kasim Hussain <kasiimh1@gmail.com>
+Depends: mobilesubstrate
+Filename: Debs/com.yourepo.kasiimh1.chevronbegone_0.0.1_iphoneos-arm.deb
+Size: 2502
+MD5sum: 1d0627a8d3a9c39b0b3d6cfe4e4a6399
+SHA1: 70097d984cc6022d06454a7cc517dc559326f812
+SHA256: 395d15167cd65724e8923ef5fd2eab5fed557c6f7ff056c084acf578f00d5c88
+Section: Tweaks
+Description: Removes the Chevron in CC
+Author: Kasim Hussain <kasiimh1@gmail.com>
+Name: ChevronBeGone
+
+Package: com.yourepo.kasiimh1.traintimenoads
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Kasim Hussain <kasiimh1@gmail.com>
+Depends: mobilesubstrate
+Filename: Debs/com.yourepo.kasiimh1.traintimenoads.deb
+Size: 2518
+MD5sum: af8987e398ab37a5941ccb55502bf38c
+SHA1: 7a1199f7cee7610aecaafb6970fb934e2ee7d34b
+SHA256: 661472cc3798c8f87986c000c5a2223b71bd843fec25399dc2b4f72d85885d88
+Section: Tweaks
+Description: Removes Ads Within the TrainTimes App
+Author: Kasim Hussain <kasiimh1@gmail.com>
+Name: TrainTime No Ads
+
