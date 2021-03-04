@@ -78,6 +78,20 @@ Description: Enable Background Playback, Removes Channel Watermark in Google You
 Author: kasiimh1 <kasiimh1@gmail.com>
 Name: ytbgd
 
+Package: com.kasiimh1.dimentio
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: kasiimh1, 0x7ff
+Filename: Debs/com.kasiimh1.dimentio.deb
+Size: 20568
+MD5sum: 492670a3519045bfd8a567e8857c3a13
+SHA1: 957d3e1f9930ec30dcc8b7645f551946a0e6112a
+SHA256: 69afe38b52c0e02f9b276bd3ab525506d0ffe5316c2cc84f8cd1c689d6161e8d
+Section: System
+Description: Set Nonce Generator on any KPP, KTRR and PAC enabled device, file saved to /usr/bin/ Usage: ./dimentio <Generator> Login as SU before use. Created by https://github.com/0x7ff/
+Author: kasiimh1, 0x7ff
+Name: Dimentio Generator Setter
+
 Package: com.kasiimh1.hidemydockbackground
 Version: 0.0.1
 Architecture: iphoneos-arm
