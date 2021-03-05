@@ -79,15 +79,15 @@ Author: kasiimh1 <kasiimh1@gmail.com>
 Name: ytbgd
 
 Package: com.kasiimh1.dimentio
-Version: 2.1
+Version: 2.2
 Architecture: iphoneos-arm
 Maintainer: kasiimh1, 0x7ff
 Depends: libkrw
 Filename: Debs/com.kasiimh1.dimentio.deb
-Size: 18848
-MD5sum: 69f622b8a9c63cae01a74e7522cc6bf7
-SHA1: 32becbd29846ac52a048e3cc597ead40bf9a2d06
-SHA256: 109e1ff2940fbe38de00f9d658e041b47aa4e6bbc1ba162be852d600d7724c16
+Size: 19032
+MD5sum: eaefc803323b08cc836656ac0342b3b3
+SHA1: f78b75d97ac7663b6b9c8cbbc053eaadb426c9cc
+SHA256: e460e3eef78c9168e5463f3665f319927daf38793ae3e9ef0aeec4090541adc9
 Section: System
 Description: Set Nonce Generator on any KPP, KTRR and PAC enabled device, file saved to /usr/bin/ Usage: ./dimentio <Generator> Login as SU before use. Created by https://github.com/0x7ff/
 Author: kasiimh1, 0x7ff
