@@ -132,14 +132,14 @@ Maintainer: Kasim Hussain
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: Debs/com.kasiimh1.plexed.deb
-Size: 3354
-MD5sum: 9d9383633f95061dabf0bd2bca17d668
-SHA1: b85eff82c747beade5c306f5ac728a77fb2236f6
-SHA256: a6f6a5b25c27cac1246f79f45f2912c2eb990e610a604e88b3e988d9a56c1653
+Size: 3350
+MD5sum: da3f5e611cd3880f4ab6eb90e7272973
+SHA1: 1a5e2c743ba7aa458dffe1e18a5b1cf18ee3eef8
+SHA256: 67db8070d26629225830de3676448712c9281ef2739a196551f4751e97dd79e9
 Section: Tweaks
 Description: Enable Pro in Plex App
 Author: Kasim Hussain
-Name: plexed-tv
+Name: plexed
 
 Package: com.posdorfer.noliveclock
 Version: 0.0.3
