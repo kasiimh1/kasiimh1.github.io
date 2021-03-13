@@ -1,0 +1,48 @@
+Package: com.kasiim.infuse++
+Version: 0.0.2-1+debug
+Architecture: appletvos-arm64
+Maintainer: Kasim Hussain
+Installed-Size: 76
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: Debs/com.kasiim.infuse++_0.0.2-1+debug_appletvos-arm64.deb
+Size: 3078
+MD5sum: 49a874c49b70e52b3bdd4c108bd25b63
+SHA1: 7aee6ae59b82cbe7311e4aa01aa2c83ca3249b8b
+SHA256: c072cd41ada5bcd79c483c156df38d19316c2b893ed1840d18eb82bd279e381c
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Kasim Hussain
+Name: Infuse++
+
+Package: com.kasiim.plexed-tv
+Version: 0.0.1-1+debug
+Architecture: appletvos-arm64
+Maintainer: Kasiim
+Installed-Size: 40
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: Debs/com.kasiim.plexed-tv_0.0.1-1+debug_appletvos-arm64.deb
+Size: 1528
+MD5sum: c79050f348af6083fb6bdda36f1ca239
+SHA1: ba7b1e1a5b51d4c099e78cd09cd54e632335390c
+SHA256: 6bc63cc7968b2cdb1e973fb66627ffd021d68f4d293914e2ce66293e66e474fd
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Kasiim
+Name: plexed-tv
+
+Package: com.kasiim.twitched-tv
+Version: 0.0.1-1+debug
+Architecture: appletvos-arm64
+Maintainer: Kasiim
+Installed-Size: 40
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: Debs/com.kasiim.twitched-tv_0.0.1-1+debug_appletvos-arm64.deb
+Size: 1522
+MD5sum: b874692c6f5d5733e142ac9764010c52
+SHA1: 0e5faa06da3c6c0a4b84bdb16050070e94950b94
+SHA256: 53ff77470ecbe720442a415fd2ebc168ed2d26431ac88ecb7c00da6071da916c
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Kasiim
+Name: twitched-tv
+
