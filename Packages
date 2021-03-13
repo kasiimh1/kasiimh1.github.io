@@ -77,6 +77,22 @@ Description: Hides Page Dots on SpringBoard
 Author: kasiimh1 <kasiimh1@gmail.com>
 Name: HidePageDots
 
+Package: com.kasiimh1.infuse++
+Version: 1.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: Kasim Hussain
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: Debs/com.kasiimh1.infuse++.deb
+Size: 4278
+MD5sum: 0afcf84a43a21dd6e586a333ed1f0a89
+SHA1: c9c07160939c8d0f8de40f3093729dacaa464f86
+SHA256: 0b0af5a09098f564c9143280d4a3326618dd6dc7967760ed539da5c473a8cf75
+Section: Tweaks
+Description: Enable Pro in Infuse App
+Author: Kasim Hussain
+Name: Infuse++
+
 Package: com.kasiimh1.nooldertext
 Version: 0.2
 Architecture: iphoneos-arm
@@ -109,13 +125,29 @@ Description: Removes Weather is Provided by on Today View
 Author: kasiimh1 <kasiimh1@gmail.com>
 Name: NoWeatherInfo
 
+Package: com.kasiimh1.plexed
+Version: 1.0-1+debug
+Architecture: iphonearmos-arm
+Maintainer: Kasim Hussain
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: Debs/com.kasiimh1.plexed.deb
+Size: 3354
+MD5sum: 9d9383633f95061dabf0bd2bca17d668
+SHA1: b85eff82c747beade5c306f5ac728a77fb2236f6
+SHA256: a6f6a5b25c27cac1246f79f45f2912c2eb990e610a604e88b3e988d9a56c1653
+Section: Tweaks
+Description: Enable Pro in Plex App
+Author: Kasim Hussain
+Name: plexed-tv
+
 Package: com.posdorfer.noliveclock
 Version: 0.0.3
 Architecture: iphoneos-arm
 Maintainer: wolfposd, kasiimh1
 Installed-Size: 136
 Depends: mobilesubstrate
-Filename: Debs/com.posdorfer.noliveclock_0.0.3_iphoneos-arm.deb
+Filename: Debs/com.posdorfer.noliveclock.deb
 Size: 2428
 MD5sum: 6d957665ea4eaed3def34284600acea9
 SHA1: 05cf1b09c4107042c8e7a92622a70f51006fbd9a
@@ -130,7 +162,7 @@ Version: 0.0.1
 Architecture: iphoneos-arm
 Maintainer: Kasim Hussain <kasiimh1@gmail.com>
 Depends: mobilesubstrate
-Filename: Debs/com.yourepo.kasiimh1.chevronbegone_0.0.1_iphoneos-arm.deb
+Filename: Debs/com.yourepo.kasiimh1.chevronbegone.deb
 Size: 2502
 MD5sum: 1d0627a8d3a9c39b0b3d6cfe4e4a6399
 SHA1: 70097d984cc6022d06454a7cc517dc559326f812
