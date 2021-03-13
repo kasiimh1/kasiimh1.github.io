@@ -126,16 +126,16 @@ Author: kasiimh1 <kasiimh1@gmail.com>
 Name: NoWeatherInfo
 
 Package: com.kasiimh1.plexed
-Version: 1.0-2+debug
-Architecture: iphonearmos-arm
+Version: 1.0-3+debug
+Architecture: iphoneos-arm
 Maintainer: Kasim Hussain
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: Debs/com.kasiimh1.plexed.deb
-Size: 3346
-MD5sum: 9dfa2054a647dcdd50bbb787846b42dd
-SHA1: 02d1f6ff2a39d1d09561feca5834e0b7922488c0
-SHA256: 8a417dba97024315c52e627487d7e64064bf549da0edacc0b5e84398a2209fa1
+Size: 3348
+MD5sum: 81e8750e2a6350afb3a7bcbc65a0b529
+SHA1: 1e4fe9bf1314e3cd166344c266577b66eb70f50d
+SHA256: ba88df8f540bc2b750cd9b527787209c054b9ab7a4b1da5ac87550113350cb58
 Section: Tweaks
 Description: Enable Pro in Plex App
 Author: Kasim Hussain
