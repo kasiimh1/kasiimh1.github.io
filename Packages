@@ -44,6 +44,21 @@ Description: Set Nonce Generator on any KPP, KTRR and PAC enabled device, file s
 Author: kasiimh1, 0x7ff
 Name: Dimentio Generator Setter
 
+Package: com.kasiimh1.dimentio.unc0ver
+Version: 2.4-unc0ver
+Architecture: iphoneos-arm
+Maintainer: kasiimh1, 0x7ff
+Depends: libkrw
+Filename: Debs/com.kasiimh1.dimentio.unc0ver.deb
+Size: 18960
+MD5sum: dc9e6caa2a141e01dee289dcf98b0e9d
+SHA1: 2fdb13f573801b8ffefedb9197e338fa9c805901
+SHA256: 80b4c1b4f0ab9fee3e1c9f96addb5d76a64805d7b5ba3be0750b764b77a6ee86
+Section: System
+Description: Set Nonce Generator on any KPP, KTRR and PAC enabled device, file saved to /usr/bin/ Usage: dimentio <Generator> Login as SU before use. Created by https://github.com/0x7ff/
+Author: kasiimh1, 0x7ff
+Name: Dimentio Generator Setter (unc0ver)
+
 Package: com.kasiimh1.hidemydockbackground
 Version: 0.0.1
 Architecture: iphoneos-arm
