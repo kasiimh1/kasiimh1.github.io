@@ -46,17 +46,17 @@ Description: An awesome MobileSubstrate tweak!
 Author: Kasiim
 Name: twitched-tv
 
-Package: com.kasiimh1
-Version: 0.0.1-1+debug
+Package: com.kasiimh1.youtubd
+Version: 0.0.2-2+debug
 Architecture: appletvos-arm64
 Maintainer: Kasim Hussain
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: Debs/com.kasiimh1_0.0.1-1+debug_appletvos-arm64.deb
-Size: 2586
-MD5sum: f8a7b95beb32916420682d06d4d15ce6
-SHA1: ba170b6484e4794a8735f067e7c7fad04b6b71c0
-SHA256: 1980d3e98da2788fb4481caa3b7576b8e166599f818a059ae8ab99b45a72e4c5
+Filename: Debs/com.kasiimh1.youtubd_0.0.2-2+debug_appletvos-arm64.deb
+Size: 2594
+MD5sum: 21f1c8c301d6c43f2fcdc07d51750164
+SHA1: 853926605f5a2eeed095363b9af9fbca71411b97
+SHA256: 2aac090e7ed7b412aed06b69b29f59ba050b2e415b3085b3d7bb740ac4d61cc7
 Section: Tweaks
 Description: No Ads on Youtube
 Author: Kasim Hussain
