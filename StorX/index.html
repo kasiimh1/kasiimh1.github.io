@@ -12,13 +12,14 @@
   <script src="assets/js/jquery-3.6.0.min.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/script.js"></script>
-  <script type="text/javascript" src="assets/js/date.js"></script>
+  <script type="text/javascript" src="assets/js/moment.js"></script>
   <title>StorX Contract Helper</title>
 </head>
 <body class="container">
     <nav class="navbar navbar-dark navbar-expand-md sticky-top mt-4">
       <div class="container-fluid"><a class="navbar-brand" href=""><img
-            class="d-inline-block float-left" src="assets/images/logo.png" alt="logo" height="50"></a>
+            class="d-inline-block float-left" src="assets/images/logo.png" alt="logo" height="50"></a>  <h5 class="mt-2">Created by Kasiimh1</h5>
+
         <button class="navbar-toggler custom-toggler" data-toggle="collapse" data-target="#navcol-1" style="color:rgba(255,255,255,0.5);">
           <span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span>
         </button>
@@ -26,7 +27,8 @@
          </div>
     </nav>
   </div>
-  <h5 class="mt-2">Created by Kasiimh1</h5>
+  <hr>
+  <h6 id="price" class="text-center"></h6>
   <div class="mb-3 mt-5">
     <label for="xdcAddress" class="form-label">Enter XDC Address to monitor</label>
     <input class="form-control" id="walletAdd" placeholder="xdc798f798d7fdf61218fde06ce0ad5c382ca82e1cc">
@@ -34,46 +36,4 @@
   <button type="button" class="btn btn-danger mb-2" onclick="fetchData()">Get Contract Data</button>
   <span id="walletInfo"></span>
 </body>
-<script>
-  function store(){
-    if (typeof(Storage) !== "undefined") {
-      var walletAddress = document.getElementById("walletAdd");
-      if (localStorage.getItem("cache") == null){
-        localStorage.setItem("cache", walletAdd.value);
-      }
-      else
-        localStorage.setItem("cache", localStorage.getItem("cache") + walletAdd.valuetoLowerCase());
-    }
-  }
-  function fetchData(){
-    if (document.getElementById("walletAdd").value != "") {
-      document.getElementById("walletInfo").innerHTML = "";
-      let response = fetch("https://farmerapi.storx.io/get-contract-data").then(res => res.text()).then(data => {
-      data = JSON.parse(data);
-      address = walletAdd.value.toLowerCase().replace("xdc", "0x");
-      if (data['data']['stakeHolders'][address] != null) {
-      document.getElementById("walletInfo").innerHTML += "<br>---Found Contract Data!---<br><br>Contract Address: " + address;
-      document.getElementById("walletInfo").innerHTML += "<br>StorX Node Reputation: " + data['data']['stakeHolders'][address]['reputation'];
-      if (data['data']['stakeHolders'][address]['reputation'] >= 10)
-        document.getElementById("walletInfo").innerHTML += "<br>Farmer Status: <span style='color:green;'>True!</span>";
-      else
-        document.getElementById("walletInfo").innerHTML += "<br>Farmer Node Status: <span style='color:red;'>False!</span>";
-      document.getElementById("walletInfo").innerHTML += "<br><br>Staked SRX: " + data['data']['stakeHolders'][address]['stake']['stakedAmount']/10**18;
-      document.getElementById("walletInfo").innerHTML += "<br>Claimable SRX Balance: " + data['data']['stakeHolders'][address]['stake']['balance'];
-      document.getElementById("walletInfo").innerHTML += "<br>SRX Total Redeemed: " + data['data']['stakeHolders'][address]['stake']['totalRedeemed']/10**18;
-      document.getElementById("walletInfo").innerHTML += "<br><br>Date SRX Staked: " + new Date(data['data']['stakeHolders'][address]['stake']['stakedTime'] * 1000);
-      document.getElementById("walletInfo").innerHTML += "<br>Rewards Last Redeemed On " + new Date(data['data']['stakeHolders'][address]['stake']['lastRedeemedAt'] * 1000);    
-      document.getElementById("walletInfo").innerHTML += "<br>Next Rewards Redeemable from " + Date.parse(new Date(data['data']['stakeHolders'][address]['stake']['lastRedeemedAt'] * 1000)).add(30).day();
-      document.getElementById("walletInfo").innerHTML += "<br><br>Block Explorer Link: " + "<a href='https://explorer.xinfin.network/addr/"+ address.replace("0x", "xdc") + "'>https://explorer.xinfin.network/addr/"+ address.replace("0x", "xdc") + "</a>";
-      }
-      else {
-        document.getElementById("walletInfo").innerHTML += "<br>---No Contract Data Found!---<br>XDC Address: " + address;
-        document.getElementById("walletInfo").innerHTML += "<br>Reputation is below 1, Check back soon!";
-      }
-
-  }) }
-  else
-    alert("Address is needed to perform contract lookup")
-}
-  </script>
 </html>
