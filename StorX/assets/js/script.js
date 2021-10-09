@@ -1,22 +1,39 @@
-window.onload = function () {
+window.onload = function (){
     getTokenPrice();
+    checkCache();
 }
 
-function getTokenPrice() {
+function checkCache(){
+  if (localStorage.getItem("cache") == null){
+    document.getElementById("cacheBtn").innerHTML = '<button type="button" class="btn btn-success mb-2" onclick="cacheAddress()">Save Address</button>';
+  }
+  else   
+    document.getElementById("cacheBtn").innerHTML = '<button type="button" class="btn btn-success mb-2" onclick="loadAddress()">Load Cached Address</button> <button type="button" class="btn btn-danger mb-2" onclick="localStorage.clear(); window.location.reload();">Clear Cached Address</button>';
+}
+
+function loadAddress(){
+  console.log("[FROM CACHE]", localStorage.getItem("cache"));
+  walletAdd.value = localStorage.getItem("cache");
+}
+
+
+function getTokenPrice(){
     fetch("https://farmerapi.storx.io/get-asset-price").then(res => res.text()).then(data => {
     data = JSON.parse(data);
       document.getElementById("price").innerHTML = "Current Prices: <br> SRXUSDT: $" +  data['data']['SRXUSDT'] + " -- XDCUSDT: $" + data['data']['XDCUSDT'];
     })
 }
 
-function store(){
+function cacheAddress(){
     if (typeof(Storage) !== "undefined") {
-     // var walletAddress = document.getElementById("walletAdd");
       if (localStorage.getItem("cache") == null){
+        console.log("[SAVE TO CACHE]", walletAdd.value);
         localStorage.setItem("cache", walletAdd.value);
+        window.location.reload();
+        alert("[Cached] XDC Address: " + walletAdd.value);
       }
-      else
-        localStorage.setItem("cache", localStorage.getItem("cache") + walletAdd.valuetoLowerCase());
+     // else
+    //  console.log("[FROM CACHE]", localStorage.getItem("cache") + walletAdd.valuetoLowerCase());
     }
   }
 
@@ -48,5 +65,5 @@ function store(){
       }
   }) }
   else
-    alert("Address is needed to perform contract lookup")
+    alert("Address is needed to perform contract lookup");
 }
