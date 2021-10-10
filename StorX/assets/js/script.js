@@ -1,20 +1,34 @@
+let srx_val = 0;
+
 window.onload = function () {
     getTokenPrice();
+    getStats();
     checkCache();
     modeToggle(localStorage.getItem("mode"));
 }
+
+function getStats(){
+  fetch("https://farmerapi.storx.io/get-stats").then(res => res.text()).then(data => {
+    data = JSON.parse(data);
+    var labelValue = (Math.round(data['data']['staked_amount']/10**18 * srx_val));
+    labelValue = Math.abs(Number(labelValue)) >= 1.0e+9 ? (Math.abs(Number(labelValue)) / 1.0e+9).toFixed(2) + "B" : Math.abs(Number(labelValue)) >= 1.0e+6 ? (Math.abs(Number(labelValue)) / 1.0e+6).toFixed(2) + "M": Math.abs(Number(labelValue))
+    document.getElementById("tvl").innerHTML = "TVL: $" + labelValue;
+    document.getElementById("count").innerHTML = "Staked Nodes: " + data['data']['stakeholder_count']});
+  }
 
 function modeToggle(appearance){
 if (localStorage.getItem("mode") == 0 || localStorage.getItem("mode") == null) {
   document.body.style.background = "#fff";
   document.body.style.color = "#333";   
+  document.getElementById("divi").style.backgroundColor = "#000";
   document.getElementById("mode").innerHTML = '<button class="btn btn-dark float-right" onclick="modeToggle(1);window.location.reload();">&#x263e;</button>';
   localStorage.setItem("mode", appearance);
 }
 
 else {
   document.body.style.background = "#333";
-  document.body.style.color = "#fff";   
+  document.body.style.color = "#fff";  
+  document.getElementById("divi").style.backgroundColor = "#fff"; 
   document.getElementById("mode").innerHTML = '<button class="btn btn-light float-right" onclick="modeToggle(0);window.location.reload();">&#x263C;</button>';
   localStorage.setItem("mode", appearance);
   }
@@ -35,9 +49,11 @@ function loadAddress(){
 function getTokenPrice(){
     fetch("https://farmerapi.storx.io/get-asset-price").then(res => res.text()).then(data => {
     data = JSON.parse(data);
-      document.getElementById("price").innerHTML = "Current Prices: <br> SRXUSDT: $" +  data['data']['SRXUSDT'] + " -- XDCUSDT: $" + data['data']['XDCUSDT'];
-    })
-}
+    document.getElementById("srx").innerHTML += "SRX: $" + data['data']['SRXUSDT'];
+    document.getElementById("xdc").innerHTML += "XDC: $" + data['data']['XDCUSDT'];
+    srx_val = data['data']['SRXUSDT'];
+    });
+} 
 
 function cacheAddress(){
     if (typeof(Storage) !== "undefined") {
