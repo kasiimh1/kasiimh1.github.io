@@ -49,8 +49,8 @@ function loadAddress(){
 function getTokenPrice(){
     fetch("https://farmerapi.storx.io/get-asset-price").then(res => res.text()).then(data => {
     data = JSON.parse(data);
-    document.getElementById("srx").innerHTML += "SRX: $" + data['data']['SRXUSDT'];
-    document.getElementById("xdc").innerHTML += "XDC: $" + data['data']['XDCUSDT'];
+    document.getElementById("srx").innerHTML = "SRX: $" + data['data']['SRXUSDT'];
+    document.getElementById("xdc").innerHTML = "XDC: $" + data['data']['XDCUSDT'];
     srx_val = data['data']['SRXUSDT'];
     });
 } 
