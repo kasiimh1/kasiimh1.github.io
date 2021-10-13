@@ -75,6 +75,7 @@ function cacheAddress(){
       address = walletAdd.value.toLowerCase().replace("xdc", "0x");
       if (data['data']['stakeHolders'][address] != null) {
       document.getElementById("walletInfo").innerHTML += "<br>---Found Contract Data!---<br><br>Contract Address: " + address;
+      document.getElementById("walletInfo").innerHTML += "<br>Farmer Node Contact HASH: " + data['data']['stakeHolders'][address]['contact'];
       document.getElementById("walletInfo").innerHTML += "<br>StorX Node Reputation: " + data['data']['stakeHolders'][address]['reputation'];
       if (data['data']['stakeHolders'][address]['reputation'] >= 10)
         document.getElementById("walletInfo").innerHTML += "<br>Farmer Status: <span style='color:green;'>True!</span>";
@@ -87,7 +88,6 @@ function cacheAddress(){
       document.getElementById("walletInfo").innerHTML += "<br>Rewards Last Redeemed On " + moment(data['data']['stakeHolders'][address]['stake']['lastRedeemedAt'] * 1000).format("LLL");    
       document.getElementById("walletInfo").innerHTML += "<br>Next Rewards Redeemable from " + moment(data['data']['stakeHolders'][address]['stake']['lastRedeemedAt'] * 1000).add(30, "days").format("LLL");
       document.getElementById("walletInfo").innerHTML += "<br><br>Block Explorer Link: " + "<a href='https://explorer.xinfin.network/addr/"+ address.replace("0x", "xdc") + "'>https://explorer.xinfin.network/addr/"+ address.replace("0x", "xdc") + "</a>";
-      document.getElementById("walletInfo").innerHTML += "<br>Farmer Node Contact HASH: " + data['data']['stakeHolders'][address]['contact'];
     }
       else {
         document.getElementById("walletInfo").innerHTML += "<br>---No Contract Data Found!---<br>XDC Address: " + address;
