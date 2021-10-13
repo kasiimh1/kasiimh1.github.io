@@ -87,7 +87,8 @@ function cacheAddress(){
       document.getElementById("walletInfo").innerHTML += "<br>Rewards Last Redeemed On " + moment(data['data']['stakeHolders'][address]['stake']['lastRedeemedAt'] * 1000).format("LLL");    
       document.getElementById("walletInfo").innerHTML += "<br>Next Rewards Redeemable from " + moment(data['data']['stakeHolders'][address]['stake']['lastRedeemedAt'] * 1000).add(30, "days").format("LLL");
       document.getElementById("walletInfo").innerHTML += "<br><br>Block Explorer Link: " + "<a href='https://explorer.xinfin.network/addr/"+ address.replace("0x", "xdc") + "'>https://explorer.xinfin.network/addr/"+ address.replace("0x", "xdc") + "</a>";
-      }
+      document.getElementById("walletInfo").innerHTML += "<br>Farmer Node Contact HASH: " + data['data']['stakeHolders'][address]['contact'];
+    }
       else {
         document.getElementById("walletInfo").innerHTML += "<br>---No Contract Data Found!---<br>XDC Address: " + address;
         document.getElementById("walletInfo").innerHTML += "<br>Reputation is below 1, Check back soon!";
