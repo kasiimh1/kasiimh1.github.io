@@ -76,7 +76,7 @@ function cacheAddress(){
       if (data['data']['stakeHolders'][address] != null) {
       document.getElementById("walletInfo").innerHTML += "<br>---Found Contract Data!---<br><br>Contract Address: " + address;
       document.getElementById("walletInfo").innerHTML += "<br>Farmer Node Contact HASH: " + data['data']['stakeHolders'][address]['contact'];
-      document.getElementById("walletInfo").innerHTML += "<br>StorX Node Reputation: " + data['data']['stakeHolders'][address]['reputation'];
+      document.getElementById("walletInfo").innerHTML += "<br><br>StorX Node Reputation: " + data['data']['stakeHolders'][address]['reputation'];
       if (data['data']['stakeHolders'][address]['reputation'] >= 10)
         document.getElementById("walletInfo").innerHTML += "<br>Farmer Status: <span style='color:green;'>True!</span>";
       else
