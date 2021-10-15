@@ -35,15 +35,43 @@ else {
 }
 
 function checkCache(){
-  if (localStorage.getItem("cache") == null){
-    document.getElementById("cacheBtn").innerHTML = '<button type="button" class="btn btn-success mb-2" onclick="cacheAddress()">Save Address</button>';
-  }
-  else   
-    document.getElementById("cacheBtn").innerHTML = '<button type="button" class="btn btn-success mb-2" onclick="loadAddress()">Load Cached Address</button> <button type="button" class="btn btn-danger mb-2" onclick="localStorage.clear(); window.location.reload();">Clear Cached Address</button>';
+  // if (localStorage.getItem("cache") == null){
+  //   document.getElementById("cacheBtn").innerHTML = '<button type="button" class="btn btn-success mb-2" onclick="cacheAddress()">Save Address</button> ';
+  // }
+  // else   
+    document.getElementById("cacheBtn").innerHTML = '<button type="button" class="btn btn-success mb-2" onclick="cacheAddress()">Save Address</button> ';
+    document.getElementById("cacheBtn").innerHTML += '<button type="button" class="btn btn-info mb-2" onclick="loadAddress()">Load Cached Address</button> <button type="button" class="btn btn-danger mb-2" onclick="localStorage.clear(); window.location.reload();">Clear Cached Address</button>';
 }
 
 function loadAddress(){
-  walletAdd.value = localStorage.getItem("cache");
+  var add = [];
+  add.push(localStorage.getItem("cache"));
+  cachedAdd(add)
+}
+
+function cachedAdd(array){ 
+  array = array[0].split(",");
+  var select = document.getElementById("cachedAdd");
+  if (document.getElementById("mySelect") == null){
+    var selectList = document.createElement("select");
+    selectList.id = "mySelect";
+    selectList.onchange = "updateInput()";
+    select.appendChild(selectList);
+    var option = document.createElement("option");
+    option.selected;
+    option.disabled;
+    option.text = "Select an XDC Address from Menu";
+    selectList.appendChild(option);
+      for(i=0; i < array.length; i++){
+        var option = document.createElement("option");
+        option.value = array[i];
+        option.text = "["+ i + "]: " + array[i];
+        selectList.appendChild(option);
+    }
+  }
+  document.getElementById('mySelect').onchange = function() {
+    document.getElementById("walletAdd").value = document.getElementById("mySelect").value;
+  };
 }
 
 function getTokenPrice(){
@@ -56,14 +84,28 @@ function getTokenPrice(){
 } 
 
 function cacheAddress(){
+  if (document.getElementById("walletAdd").value != "") {
+    var addresses = [];
     if (typeof(Storage) !== "undefined") {
       if (localStorage.getItem("cache") == null){
-        console.log("[SAVE TO CACHE]", walletAdd.value);
-        localStorage.setItem("cache", walletAdd.value);
+        addresses.push(walletAdd.value.toLowerCase())
+        console.log("[SAVE TO CACHE]", walletAdd.value.toLowerCase());
+        localStorage.setItem("cache", walletAdd.value.toLowerCase());
         window.location.reload();
-        alert("[Cached] XDC Address: " + walletAdd.value);
+        alert("[Cached] XDC Address: " + walletAdd.value.toLowerCase());
+      }
+      else {
+        addresses.push(walletAdd.value.toLowerCase());
+        addresses.push(localStorage.getItem("cache"))
+        console.log("[SAVE TO CACHE]", walletAdd.value.toLowerCase());
+        localStorage.setItem("cache", addresses);
+        window.location.reload();
+        alert("[Cached] XDC Address: " + walletAdd.value.toLowerCase());
       }
     }
+  }
+    else 
+      alert("Address is needed to perform contract lookup");
   }
 
   function fetchData(){
