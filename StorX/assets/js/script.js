@@ -55,7 +55,7 @@ function cachedAdd(array){
   if (document.getElementById("mySelect") == null){
     var selectList = document.createElement("select");
     selectList.id = "mySelect";
-    selectList.onchange = "updateInput()";
+    selectList.className = "mt-4 form-control w-75 mx-auto";
     select.appendChild(selectList);
     var option = document.createElement("option");
     option.selected;
@@ -64,6 +64,7 @@ function cachedAdd(array){
     selectList.appendChild(option);
       for(i=0; i < array.length; i++){
         var option = document.createElement("option");
+        option.className = "form-select";
         option.value = array[i];
         option.text = "["+ (i+1) + "]: " + array[i];
         selectList.appendChild(option);
@@ -129,7 +130,7 @@ function cacheAddress(){
       document.getElementById("walletInfo").innerHTML += "<br><br>Date SRX Staked: " + moment(data['data']['stakeHolders'][address]['stake']['stakedTime'] * 1000).format("LLL");   
       document.getElementById("walletInfo").innerHTML += "<br>Rewards Last Redeemed On " + moment(data['data']['stakeHolders'][address]['stake']['lastRedeemedAt'] * 1000).format("LLL");    
       document.getElementById("walletInfo").innerHTML += "<br>Next Rewards Redeemable from " + moment(data['data']['stakeHolders'][address]['stake']['lastRedeemedAt'] * 1000).add(30, "days").format("LLL");
-      document.getElementById("walletInfo").innerHTML += "<br><br>Block Explorer Link: " + "<a href='https://explorer.xinfin.network/addr/"+ address.replace("0x", "xdc") + "'>https://explorer.xinfin.network/addr/"+ address.replace("0x", "xdc") + "</a>";
+      document.getElementById("walletInfo").innerHTML += "<br><br><button class='btn btn-primary'>Block Explorer Link: " + "<a href='https://explorer.xinfin.network/addr/"+ address.replace("0x", "xdc") + "'><img src='https://img.icons8.com/material-two-tone/12/000000/external-link.png'/></a></button>";
     }
       else {
         document.getElementById("walletInfo").innerHTML += "<br>---No Contract Data Found!---<br>XDC Address: " + address;
