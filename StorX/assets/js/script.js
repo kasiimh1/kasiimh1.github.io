@@ -65,7 +65,7 @@ function cachedAdd(array){
       for(i=0; i < array.length; i++){
         var option = document.createElement("option");
         option.value = array[i];
-        option.text = "["+ i + "]: " + array[i];
+        option.text = "["+ (i+1) + "]: " + array[i];
         selectList.appendChild(option);
     }
   }
