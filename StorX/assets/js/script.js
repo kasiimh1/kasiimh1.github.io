@@ -4,7 +4,7 @@ window.onload = function () {
     getTokenPrice();
     getStats();
     checkCache();
-    modeToggle(localStorage.getItem("mode"));
+ //   modeToggle(localStorage.getItem("mode"));
 }
 
 function getStats(){
@@ -16,23 +16,23 @@ function getStats(){
     document.getElementById("count").innerHTML = "Staked Nodes: " + data['data']['stakeholder_count']});
   }
 
-function modeToggle(appearance){
-if (localStorage.getItem("mode") == 0 || localStorage.getItem("mode") == null) {
-  document.body.style.background = "#fff";
-  document.body.style.color = "#333";   
-  document.getElementById("divi").style.backgroundColor = "#000";
-  document.getElementById("mode").innerHTML = '<button class="btn btn-dark float-right" onclick="modeToggle(1);window.location.reload();">&#x263e;</button>';
-  localStorage.setItem("mode", appearance);
-}
+// function modeToggle(appearance){
+// if (localStorage.getItem("mode") == 0 || localStorage.getItem("mode") == null) {
+//   document.body.style.background = "#fff";
+//   document.body.style.color = "#333";   
+//   document.getElementById("divi").style.backgroundColor = "#000";
+//   document.getElementById("mode").innerHTML = '<button class="btn btn-dark float-right" onclick="modeToggle(1);window.location.reload();">&#x263e;</button>';
+//   localStorage.setItem("mode", appearance);
+// }
 
-else {
-  document.body.style.background = "#333";
-  document.body.style.color = "#fff";  
-  document.getElementById("divi").style.backgroundColor = "#fff"; 
-  document.getElementById("mode").innerHTML = '<button class="btn btn-light float-right" onclick="modeToggle(0);window.location.reload();">&#x263C;</button>';
-  localStorage.setItem("mode", appearance);
-  }
-}
+// else {
+//   document.body.style.background = "#333";
+//   document.body.style.color = "#fff";  
+//   document.getElementById("divi").style.backgroundColor = "#fff"; 
+//   document.getElementById("mode").innerHTML = '<button class="btn btn-light float-right" onclick="modeToggle(0);window.location.reload();">&#x263C;</button>';
+//   localStorage.setItem("mode", appearance);
+//   }
+// }
 
 function checkCache(){
     document.getElementById("cacheBtn").innerHTML = '<button type="button" class="btn btn-success mb-2" onclick="cacheAddress()">Save Address</button> ';
