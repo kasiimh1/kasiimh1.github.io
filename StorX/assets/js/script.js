@@ -9,7 +9,7 @@ window.onload = function () {
 function getCurrencyPrice(currency) {
   fetch("https://farmerapi.storx.io/get-asset-price").then(res => res.text()).then(data => {
     dataa = JSON.parse(data);
-    fetch("http://www.floatrates.com/daily/usd.json").then(res => res.text()).then(data => {
+    fetch("https://www.floatrates.com/daily/usd.json").then(res => res.text()).then(data => {
       data = JSON.parse(data);
       if (currency == "GBP") {
         document.getElementById("srx").innerHTML = "SRX/GBP: " + (data.gbp.rate.toFixed(5) / 10 * dataa['data']['SRXUSDT']).toFixed(5)
