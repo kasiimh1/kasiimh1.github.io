@@ -12,36 +12,36 @@ function getCurrencyPrice(currency) {
     fetch("https://www.floatrates.com/daily/usd.json").then(res => res.text()).then(data => {
       data = JSON.parse(data);
       if (currency == "GBP") {
-        document.getElementById("srx").innerHTML = "SRX/GBP: " + (data.gbp.rate.toFixed(5) / 10 * dataa['data']['SRXUSDT']).toFixed(5)
-        document.getElementById("xdc").innerHTML = "XDC/GBP: " + (data.gbp.rate.toFixed(5) / 10 * dataa['data']['XDCUSDT']).toFixed(5)
+        document.getElementById("srx").innerHTML = "SRX/GBP: " + (data.gbp.rate.toFixed(5) * dataa['data']['SRXUSDT']).toFixed(5)
+        document.getElementById("xdc").innerHTML = "XDC/GBP: " + (data.gbp.rate.toFixed(5) * dataa['data']['XDCUSDT']).toFixed(5)
       }
       if (currency == "CAD") {
-        document.getElementById("srx").innerHTML = "SRX/CAD: " + (data.cad.rate.toFixed(5) / 10 * dataa['data']['SRXUSDT']).toFixed(5)
-        document.getElementById("xdc").innerHTML = "XDC/CAD: " + (data.cad.rate.toFixed(5) / 10 * dataa['data']['XDCUSDT']).toFixed(5)
+        document.getElementById("srx").innerHTML = "SRX/CAD: " + (data.cad.rate.toFixed(5) * dataa['data']['SRXUSDT']).toFixed(5)
+        document.getElementById("xdc").innerHTML = "XDC/CAD: " + (data.cad.rate.toFixed(5) * dataa['data']['XDCUSDT']).toFixed(5)
       }
       if (currency == "CHF") {
-        document.getElementById("srx").innerHTML = "SRX/CHF: " + (data.chf.rate.toFixed(5) / 10 * dataa['data']['SRXUSDT']).toFixed(5)
-        document.getElementById("xdc").innerHTML = "XDC/CHF: " + (data.chf.rate.toFixed(5) / 10 * dataa['data']['XDCUSDT']).toFixed(5)
+        document.getElementById("srx").innerHTML = "SRX/CHF: " + (data.chf.rate.toFixed(5) * dataa['data']['SRXUSDT']).toFixed(5)
+        document.getElementById("xdc").innerHTML = "XDC/CHF: " + (data.chf.rate.toFixed(5) * dataa['data']['XDCUSDT']).toFixed(5)
       }
       if (currency == "USD") {
         document.getElementById("srx").innerHTML = "SRX/USDT: " + dataa['data']['SRXUSDT']
         document.getElementById("xdc").innerHTML = "XDC/USDT: " + dataa['data']['XDCUSDT']
       }
       if (currency == "EUR") {
-        document.getElementById("srx").innerHTML = "SRX/EUR: " + (data.eur.rate.toFixed(5) / 10 * dataa['data']['SRXUSDT']).toFixed(5)
-        document.getElementById("xdc").innerHTML = "XDC/EUR: " + (data.eur.rate.toFixed(5) / 10 * dataa['data']['XDCUSDT']).toFixed(5)
+        document.getElementById("srx").innerHTML = "SRX/EUR: " + (data.eur.rate.toFixed(5) * dataa['data']['SRXUSDT']).toFixed(5)
+        document.getElementById("xdc").innerHTML = "XDC/EUR: " + (data.eur.rate.toFixed(5) * dataa['data']['XDCUSDT']).toFixed(5)
       }
       if (currency == "AUD") {
-        document.getElementById("srx").innerHTML = "SRX/AUD: " + (data.cad.aud.toFixed(5) / 10 * dataa['data']['SRXUSDT']).toFixed(5)
-        document.getElementById("xdc").innerHTML = "XDC/AUD: " + (data.cad.aud.toFixed(5) / 10 * dataa['data']['XDCUSDT']).toFixed(5)
+        document.getElementById("srx").innerHTML = "SRX/AUD: " + (data.cad.aud.toFixed(5) * dataa['data']['SRXUSDT']).toFixed(5)
+        document.getElementById("xdc").innerHTML = "XDC/AUD: " + (data.cad.aud.toFixed(5) * dataa['data']['XDCUSDT']).toFixed(5)
       }
       if (currency == "NZD") {
-        document.getElementById("srx").innerHTML = "SRX/NZD: " + (data.nzd.rate.toFixed(5) / 10 * dataa['data']['SRXUSDT']).toFixed(5)
-        document.getElementById("xdc").innerHTML = "XDC/NZD: " + (data.nzd.rate.toFixed(5) / 10 * dataa['data']['XDCUSDT']).toFixed(5)
+        document.getElementById("srx").innerHTML = "SRX/NZD: " + (data.nzd.rate.toFixed(5) * dataa['data']['SRXUSDT']).toFixed(5)
+        document.getElementById("xdc").innerHTML = "XDC/NZD: " + (data.nzd.rate.toFixed(5) * dataa['data']['XDCUSDT']).toFixed(5)
       }
       if (currency == "JPY") {
-        document.getElementById("srx").innerHTML = "SRX/JPY: " + (data.jpy.rate.toFixed(5) / 10 * dataa['data']['SRXUSDT']).toFixed(5)
-        document.getElementById("xdc").innerHTML = "XDC/JPY: " + (data.jpy.rate.toFixed(5) / 10 * dataa['data']['XDCUSDT']).toFixed(5)
+        document.getElementById("srx").innerHTML = "SRX/JPY: " + (data.jpy.rate.toFixed(5) * dataa['data']['SRXUSDT']).toFixed(5)
+        document.getElementById("xdc").innerHTML = "XDC/JPY: " + (data.jpy.rate.toFixed(5) * dataa['data']['XDCUSDT']).toFixed(5)
       }
     });  
   });
