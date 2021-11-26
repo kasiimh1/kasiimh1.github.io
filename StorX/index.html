@@ -18,7 +18,7 @@
 <body class="container mb-5" style="background-color: #171622;color: white;">
   <div class="container-fluid">
     <img class="d-inline-block sticky-top mt-5" src="assets/images/logo.png" alt="logo" height="50"> </a> 
-    <h5 class="mt-2 ml-3">Created by Kasiimh1<span id="mode"></span></h5> 
+    <h5 class="mt-2 ml-1">Created by Kasiimh1<span id="mode"></span></h5> 
     <!-- <div class="text-center p-2 dropdown float-right">
       <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border-radius: 10px; background-color: #171622; width: 8rem; color: white !important;">
         Fiat
@@ -30,7 +30,9 @@
       </div>
     </div> -->
     <div class="row ml-1">
-      <div class="mt-3 mr-1">
+      <button class="btn btn-primary mt-2" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        Upload KeyStore
+       </button> <div class="mt-3 mr-1">
         <span id="srx" class="text-center p-2" style="border-radius: 10px; width: 8rem; color: white !important;"></span> I
         <span id="xdc" class="text-center p-2" style="border-radius: 10px; width: 8rem; color: white !important;"></span> I
       </div>
@@ -38,10 +40,13 @@
         <span id="tvl" class="text-center p-2" style="border-radius: 10px; width: 8rem; color: white !important;"></span> I
         <span id="count" class="text-center p-2" style="border-radius: 10px; width: 8rem; color: white !important;"></span>
       </div>
+     
     </div>
     <hr class="mt-4" id="divi" style="background-color: white;">
-    <div class="">
-      <input class="btn" type="file" onchange="loadKeyStore()" style="color: white"/>
+    <div class="collapse" id="collapseExample">
+      <div class="card card-body" style="background-color: #171622;">
+        <input class="btn" type="file" onchange="loadKeyStore()" style="color: white"/>
+      </div>
     </div>
     <div class="" id="cachedAdd"></div>
     <div class="mb-3 mt-5">
