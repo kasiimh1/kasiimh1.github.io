@@ -19,6 +19,16 @@
   <div class="container-fluid">
     <img class="d-inline-block sticky-top mt-5" src="assets/images/logo.png" alt="logo" height="50"> </a> 
     <h5 class="mt-2">Created by Kasiimh1<span id="mode"></span></h5> 
+    <!-- <div class="text-center p-2 dropdown float-right">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border-radius: 10px; background-color: #171622; width: 8rem; color: white !important;">
+        Fiat
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="border-radius: 15px; background-color: #171622;">
+        <a class="dropdown-item text-center text-white" href="#">GBP</a>
+        <a class="dropdown-item text-center text-white" href="#">USD</a>
+        <a class="dropdown-item text-center text-white" href="#">EUR</a>
+      </div>
+    </div> -->
     <div class="row ml-1">
       <div class="mt-3 mr-1">
         <span id="srx" class="text-center p-2" style="border-radius: 10px; background-color: red; width: 8rem; color: white !important;"></span>
@@ -30,6 +40,9 @@
       </div>
     </div>
     <hr class="mt-4" id="divi" style="background-color: white;">
+    <div class="">
+      <input class="btn" type="file" onchange="loadKeyStore()" style="color: white"/>
+    </div>
     <div class="" id="cachedAdd"></div>
     <div class="mb-3 mt-5">
       <label for="xdcAddress" class="form-label">Enter XDC Address to monitor</label>

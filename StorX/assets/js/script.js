@@ -7,6 +7,21 @@ window.onload = function () {
  //   modeToggle(localStorage.getItem("mode"));
 }
 
+function loadKeyStore() {
+  const content = document.querySelector('.content');
+  const [file] = document.querySelector('input[type=file]').files;
+  const reader = new FileReader();
+
+  reader.addEventListener("load", () => {
+    res = JSON.parse(reader.result);
+    document.getElementById("walletAdd").value = "xdc" + res.address;
+  }, false);
+
+  if (file) {
+    reader.readAsText(file);
+  }
+}
+
 function getStats(){
   fetch("https://farmerapi.storx.io/get-stats").then(res => res.text()).then(data => {
     data = JSON.parse(data);
