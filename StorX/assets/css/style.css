@@ -1,3 +1,7 @@
 #navcol-1 ul li a {
     font-weight: 600;
 }
+
+.dropdown-item:hover {
+    background-color: #34324d;
+}
