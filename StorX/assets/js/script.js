@@ -24,8 +24,8 @@ function getCurrencyPrice(currency) {
         document.getElementById("xdc").innerHTML = "XDC/CHF: " + (data.chf.rate.toFixed(5) * dataa['data']['XDCUSDT']).toFixed(5)
       }
       if (currency == "USD") {
-        document.getElementById("srx").innerHTML = "SRX/USDT: " + dataa['data']['SRXUSDT']
-        document.getElementById("xdc").innerHTML = "XDC/USDT: " + dataa['data']['XDCUSDT']
+        document.getElementById("srx").innerHTML = "SRX/USD: " + dataa['data']['SRXUSDT']
+        document.getElementById("xdc").innerHTML = "XDC/USD: " + dataa['data']['XDCUSDT']
       }
       if (currency == "EUR") {
         document.getElementById("srx").innerHTML = "SRX/EUR: " + (data.eur.rate.toFixed(5) * dataa['data']['SRXUSDT']).toFixed(5)
@@ -112,8 +112,8 @@ function cachedAdd(array) {
 function getTokenPrice() {
   fetch("https://farmerapi.storx.io/get-asset-price").then(res => res.text()).then(data => {
     data = JSON.parse(data);
-    document.getElementById("srx").innerHTML = "SRX/USDT: " + data['data']['SRXUSDT'];
-    document.getElementById("xdc").innerHTML = "XDC/USDT " + data['data']['XDCUSDT'];
+    document.getElementById("srx").innerHTML = "SRX/USD: " + data['data']['SRXUSDT'];
+    document.getElementById("xdc").innerHTML = "XDC/USD " + data['data']['XDCUSDT'];
     srx_val = data['data']['SRXUSDT'];
   });
 }
