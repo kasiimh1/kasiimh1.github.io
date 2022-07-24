@@ -162,7 +162,7 @@ function fetchData() {
         document.getElementById("walletInfo").innerHTML += "<br><br>Date SRX Staked: " + moment(data['data']['stakeHolders'][address]['stake']['stakedTime'] * 1000).format("LLL");
         document.getElementById("walletInfo").innerHTML += "<br>Rewards Last Redeemed On " + moment(data['data']['stakeHolders'][address]['stake']['lastRedeemedAt'] * 1000).format("LLL");
         document.getElementById("walletInfo").innerHTML += "<br>Next Rewards Redeemable from " + moment(data['data']['stakeHolders'][address]['stake']['lastRedeemedAt'] * 1000).add(30, "days").format("LLL");
-        document.getElementById("walletInfo").innerHTML += "<br><br><button class='btn btn-primary'>Block Explorer Link: " + "<a href='https://explorer.xinfin.network/addr/" + address.replace("0x", "xdc") + "'><img src='https://img.icons8.com/material-two-tone/12/000000/external-link.png'/></a></button>";
+        document.getElementById("walletInfo").innerHTML += "<br><br><button class='btn btn-primary'>Block Explorer Link: " + "<a href='https://xdc.blocksscan.io/address/" + address.replace("0x", "xdc") + "'><img src='https://img.icons8.com/material-two-tone/12/000000/external-link.png'/></a></button>";
       } else {
         document.getElementById("walletInfo").innerHTML += "<br>---No Contract Data Found!---<br>XDC Address: " + address;
         document.getElementById("walletInfo").innerHTML += "<br>Reputation is below 1, Check back soon!";
