@@ -32,8 +32,8 @@ function getCurrencyPrice(currency) {
         document.getElementById("xdc").innerHTML = "XDC/EUR: " + (data.eur.rate.toFixed(5) * dataa['data']['XDCUSDT']).toFixed(5)
       }
       if (currency == "AUD") {
-        document.getElementById("srx").innerHTML = "SRX/AUD: " + (data.cad.aud.toFixed(5) * dataa['data']['SRXUSDT']).toFixed(5)
-        document.getElementById("xdc").innerHTML = "XDC/AUD: " + (data.cad.aud.toFixed(5) * dataa['data']['XDCUSDT']).toFixed(5)
+        document.getElementById("srx").innerHTML = "SRX/AUD: " + (data.aud.toFixed(5) * dataa['data']['SRXUSDT']).toFixed(5)
+        document.getElementById("xdc").innerHTML = "XDC/AUD: " + (data.aud.toFixed(5) * dataa['data']['XDCUSDT']).toFixed(5)
       }
       if (currency == "NZD") {
         document.getElementById("srx").innerHTML = "SRX/NZD: " + (data.nzd.rate.toFixed(5) * dataa['data']['SRXUSDT']).toFixed(5)
