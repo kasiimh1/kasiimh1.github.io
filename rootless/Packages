@@ -1,0 +1,32 @@
+Package: com.kasiimh1.infuse++
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Kasim Hussain
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: Debs/com.kasiimh1.infuse++_1.0_iphoneos-arm64.deb
+Size: 3094
+MD5sum: de913d18356c497c0af64b1d78b5a383
+SHA1: f849a634290c2059752c807064332c8768466889
+SHA256: ccaa4f9ddc19f3fdbbc6e0c915ba915711897e4fae700405e436829a07e47b67
+Section: Tweaks
+Description: Enable Pro in Infuse App
+Author: Kasim Hussain
+Name: Infuse++
+
+Package: com.kasiimh1.plexed
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Kasim Hussain
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: Debs/com.kasiimh1.plexed_1.0_iphoneos-arm64.deb
+Size: 2714
+MD5sum: 99dad9ddd30f73960280ed9f5f167d53
+SHA1: c46e2191abb7662bd978ee5490e47399517ebea7
+SHA256: 796b9781ab7aee051726bd0a2f8d9fb9d5993dec6d839482fef4e46c9840069a
+Section: Tweaks
+Description: Enable Pro in Plex App
+Author: Kasim Hussain
+Name: plexed
+
