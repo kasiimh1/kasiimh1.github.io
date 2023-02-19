@@ -36,10 +36,10 @@ Architecture: iphoneos-arm64
 Maintainer: Kasim Hussain
 Depends: plutil
 Filename: Debs/SBShowNonDefaultSystemApps.deb
-Size: 952
-MD5sum: c4723decc5dee8aa4b874448713bebbe
-SHA1: 06bdecb3b10077440ca4e29ffdea67c7b4db0b1c
-SHA256: a1a5bf2390d7cac72889afa5bcac20caf85fbaf0211ce5dc7136bd62549f2f30
+Size: 1144
+MD5sum: cbb1e7c84c94d0cae43e2ad20793bb75
+SHA1: 7cdab9c71c37fc2762a586b31e5c346be3b8d2db
+SHA256: fc6d56ce25ff1900f5c8254e938db89934d97386862a3c56db301fa9f870a599
 Section: System
 Description: Show Non Default System Apps Reboot IS Needed For Changes To Take Effect
 Tag: role::hacker
