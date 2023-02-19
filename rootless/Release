@@ -1,8 +1,8 @@
-Origin: Kasiimh1's Rootless iOS Repo
-Label: Kasiimh1's Rootless iOS Repo
+Origin: Kasiimh1's Rootless Repo
+Label: Kasiimh1's Rootless Repo
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm64
 Components: main
-Description: Kasiimh1's Rootless iOS Repo
+Description: Kasiimh1's Rootless Repo

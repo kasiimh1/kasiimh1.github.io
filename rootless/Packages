@@ -30,3 +30,19 @@ Description: Enable Pro in Plex App
 Author: Kasim Hussain
 Name: plexed
 
+Package: kasiimh1
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Kasim Hussain
+Depends: plutil
+Filename: Debs/SBShowNonDefaultSystemApps.deb
+Size: 952
+MD5sum: c4723decc5dee8aa4b874448713bebbe
+SHA1: 06bdecb3b10077440ca4e29ffdea67c7b4db0b1c
+SHA256: a1a5bf2390d7cac72889afa5bcac20caf85fbaf0211ce5dc7136bd62549f2f30
+Section: System
+Description: Show Non Default System Apps Reboot IS Needed For Changes To Take Effect
+Tag: role::hacker
+Author: Kasim Hussain
+Name: SBShowNonDefaultSystemApps
+
