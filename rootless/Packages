@@ -30,3 +30,17 @@ Description: Enable Pro in Plex App
 Author: Kasim Hussain
 Name: plexed
 
+Package: com.kasiimh1.trollspeed
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: kasiimh1
+Filename: Debs/com.kasiimh1.trollspeed_1.0_iphoneos-arm64.deb
+Size: 177912
+MD5sum: e50a5fbf497c190b240c48e7e77bf18d
+SHA1: d722c31107194ebc0c56f013d04d23f7d0026d83
+SHA256: 786d13f8c92067d8773cc89ccf8e4a434eb4b6f61570140219356c2fc13dc569
+Section: Tweaks
+Description: An Application that enables the display of the current network usage
+Author: kasiimh1
+Name: TrollSpeed
+
