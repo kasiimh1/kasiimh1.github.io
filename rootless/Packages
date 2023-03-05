@@ -36,9 +36,9 @@ Architecture: iphoneos-arm64
 Maintainer: kasiimh1
 Filename: Debs/com.kasiimh1.trollspeed_1.0.1_iphoneos-arm64.deb
 Size: 178000
-MD5sum: ad1ad3a7c90ec1cf681fdf7915217d18
-SHA1: f24c203b1e2dbd450224ecda09749e34aafb4efd
-SHA256: 7bf411339e5a2493d78cca5c41f9e3815bcab570d21773f2e04f260e183f25ba
+MD5sum: 62f0b3f12ed240055dfe203d21072639
+SHA1: 837baa8ddfcee1786ba4ba366a7e8cdde7c21cf0
+SHA256: f1283d459c166836a5146e512ab172697b0f194a0797ace67b944c9396440beb
 Section: Tweaks
 Description: An Application that enables the display of the current network usage
 Author: kasiimh1
