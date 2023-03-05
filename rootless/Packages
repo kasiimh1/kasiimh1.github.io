@@ -31,14 +31,14 @@ Author: Kasim Hussain
 Name: plexed
 
 Package: com.kasiimh1.trollspeed
-Version: 1.0
+Version: 1.0.1
 Architecture: iphoneos-arm64
 Maintainer: kasiimh1
-Filename: Debs/com.kasiimh1.trollspeed_1.0_iphoneos-arm64.deb
-Size: 177912
-MD5sum: e50a5fbf497c190b240c48e7e77bf18d
-SHA1: d722c31107194ebc0c56f013d04d23f7d0026d83
-SHA256: 786d13f8c92067d8773cc89ccf8e4a434eb4b6f61570140219356c2fc13dc569
+Filename: Debs/com.kasiimh1.trollspeed_1.0.1_iphoneos-arm64.deb
+Size: 178380
+MD5sum: 2ac16ffdcb0c4097a4b10ba74056d8e3
+SHA1: bb6227d1e0e72ba31ac5736df1d720ae017c99e0
+SHA256: cc34968cde0dee7f31e28743f5715b5b864575eb438e17be8b323c1f9e0056ea
 Section: Tweaks
 Description: An Application that enables the display of the current network usage
 Author: kasiimh1
