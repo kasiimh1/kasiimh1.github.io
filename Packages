@@ -92,16 +92,16 @@ Author: kasiimh1 <kasiimh1@gmail.com>
 Name: HidePageDots
 
 Package: com.kasiimh1.infuse++
-Version: 1.0-1+debug
+Version: 2.0
 Architecture: iphoneos-arm
 Maintainer: Kasim Hussain
-Installed-Size: 172
+Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: Debs/com.kasiimh1.infuse++.deb
-Size: 4278
-MD5sum: 0afcf84a43a21dd6e586a333ed1f0a89
-SHA1: c9c07160939c8d0f8de40f3093729dacaa464f86
-SHA256: 0b0af5a09098f564c9143280d4a3326618dd6dc7967760ed539da5c473a8cf75
+Size: 3094
+MD5sum: fd3aead1ede02837b759ceaa2566cccc
+SHA1: d73a97b5f84598dc81cf2d4f22c666f2c00bed2f
+SHA256: 12af650021fcc0918e4e7976d1f3cc7714c030da8a7b2fec18550451280cb02d
 Section: Tweaks
 Description: Enable Pro in Infuse App
 Author: Kasim Hussain
