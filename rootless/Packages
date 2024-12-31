@@ -1,14 +1,14 @@
 Package: com.kasiimh1.infuse++
-Version: 1.0
+Version: 2.0-1+debug
 Architecture: iphoneos-arm64
 Maintainer: Kasim Hussain
-Installed-Size: 168
+Installed-Size: 172
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: Debs/com.kasiimh1.infuse++_1.0_iphoneos-arm64.deb
-Size: 3094
-MD5sum: de913d18356c497c0af64b1d78b5a383
-SHA1: f849a634290c2059752c807064332c8768466889
-SHA256: ccaa4f9ddc19f3fdbbc6e0c915ba915711897e4fae700405e436829a07e47b67
+Filename: Debs/com.kasiimh1.infuse++_2.0-1_iphoneos-arm64.deb
+Size: 4156
+MD5sum: a6c9a430fbd7b34f69a94bd3ae3d51a5
+SHA1: f5e32d066be99acb36d5de324f1e4f94dfa1ec9f
+SHA256: 36b6a02181f907e5d52f6458b2a4fa1a8997a4d1f0594c60268fc6f54865039b
 Section: Tweaks
 Description: Enable Pro in Infuse App
 Author: Kasim Hussain
