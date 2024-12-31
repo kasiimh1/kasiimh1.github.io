@@ -1,3 +1,19 @@
+Package: com.kasiim.infuse++
+Version: 2.0-1+debug
+Architecture: appletvos-arm64
+Maintainer: Kasim Hussain
+Installed-Size: 60
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: Debs/com.kasiim.infuse++_2.0-1_appletvos-arm64.deb
+Size: 3644
+MD5sum: d24c3d9bcd45e8a3f378056cb19743fb
+SHA1: 89219b992d28d4bb5bbd45208555d94ef8a912a2
+SHA256: ea0816113eca6c646ace509f67481d8605e28650e992b5da00509cd9f11a90cf
+Section: Tweaks
+Description: Unlock Infuse Pro Features
+Author: Kasim Hussain
+Name: Infuse++
+
 Package: com.kasiim.plexed-tv
 Version: 0.0.1-1+debug
 Architecture: appletvos-arm64
@@ -29,20 +45,4 @@ Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: Kasiim
 Name: twitched-tv
-
-Package: com.kasiimh1.infuse++
-Version: 2.0
-Architecture: iphoneos-arm64
-Maintainer: Kasim Hussain
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: Debs/com.kasiimh1.infuse++_2.0_iphoneos-arm64.deb
-Size: 3182
-MD5sum: 311b897d85ff7a8e40d7c703eee43b86
-SHA1: 9e3bcb95b9abcdf986be57a83ad797dc0f2e723b
-SHA256: 0e14718c40e8dcb5d9f7a13a86d5e9403308e747751dc23f0de5e39e0e1b43b3
-Section: Tweaks
-Description: Enable Pro in Infuse App
-Author: Kasim Hussain
-Name: Infuse++
 
